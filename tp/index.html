@@ -1,0 +1,35 @@
+<!-- FILEPATH: /C:/Users/Cloud/Documents/h3hitema/omar-anass-typescript/tp/index.html -->
+<!-- BEGIN: abpxx6d04wxr -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Tp</title>
+</head>
+
+<body>
+    <header class="flex justify-between items-center px-6 py-4">
+        <h1 class="text-3xl font-bold text-black">Filtre</h1>
+    </header>
+    <form class="flex items-center px-6 py-4" onsubmit="afficherPostsEtUsers(event)">
+        <input placeholder="Rechercher par titre" class="border border-gray-400 rounded-lg py-2 px-4 bg-white text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:border-transparent mr-2" type="text" name="search_titre" id="search_titre">
+        <input placeholder="Rechercher par auteur" class="border border-gray-400 rounded-lg py-2 px-4 bg-white text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:border-transparent mr-2" type="text" name="search_auteur"  id="search_auteur">
+        <input type="submit" value="Rechercher" class="bg-blue-700 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded cursor-pointer" >
+    </form> 
+    <div class="px-4 py-4">
+        <hr class="border-1 border-gray-400 mb-4">
+    </div>
+
+   <main class="grid grid-cols-3 gap-4 px-4 py-4" id="articles">
+    
+   </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+<!-- END: be15d9bcejpp -->
